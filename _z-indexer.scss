@@ -1,0 +1,17 @@
+// levels
+$z-layers: (
+	"godmode"	:		9999,
+  "modal"		:		9001,
+  "overlay"	:		8000,
+  "default"	:		1,
+	"below"		:		-1,
+  "pit"			:		-9000
+);
+
+//Function
+@function z($layer) {
+  @if not map-has-key($z-layers, $layer) {
+    @warn "No layer found for `#{$layer}` in $z-layers map. Property omitted.";
+  }
+  @return map-get($z-layers, $layer);
+}

@@ -1,0 +1,27 @@
+{
+  "name": "sass-z-indexer",
+  "version": "1.0.0",
+  "description": "A handy Sass helper for managing z-index layers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davi-mbatista/sass-z-indexer.git"
+  },
+  "keywords": [
+    "sass",
+    "css",
+    "scss",
+    "z",
+    "index",
+    "solution"
+  ],
+  "author": "machadobatista.davi@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davi-mbatista/sass-z-indexer/issues"
+  },
+  "homepage": "https://github.com/davi-mbatista/sass-z-indexer#readme"
+}
