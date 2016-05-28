@@ -5,7 +5,7 @@ A handy Sass helper for managing z-index layers
 	$ npm install --save sass-z-indexer
 	$ bower install --save sass-z-indexer
 
-## Usage
+## Use
 
 	my-element{
 	 z-index: z("overlay");
